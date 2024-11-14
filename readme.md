@@ -46,3 +46,43 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/prajwalgurnule/Computational-Drug-Discovery.git
+2. **Navigate to the project directory**:
+   ```bash
+   cd Computational-Drug-Discovery
+
+3. **Install the required packages: Make sure you have Python and pip installed, then run**:
+   ```bash
+   pip install -r requirements.txt
+4. **Run the Streamlit application: To launch the Streamlit web app that filters drugs based on Lipinski's rule, run**:
+   ```bash
+   streamlit run "2 - Streamlit App - Lipinski rule based"/app.py
+
+---
+
+## 📊 Methodology
+
+- **Data Collection**: Pharmacology data was collected from the [ChEMBL database](https://www.ebi.ac.uk/chembl/).
+- **Model Training**: Machine learning models were trained on ChEMBL data to predict drug activity, leveraging chemical and molecular property features.
+- **Evaluation**: Models were evaluated using **Mean Squared Error (MSE)** as the primary metric, ensuring reliable and accurate predictions.
+- **Drug Affinity Prediction**: Clustering methods were used to predict drug binding affinity scores, aiding in the design of drugs with high specificity and potency.
+- **Streamlit Application**: A web application was deployed with [Streamlit](https://streamlit.io/) to help pharmaceutical researchers filter FDA-approved drugs based on **Lipinski's Rule of Five**.
+
+---
+
+## 🌱 Future Work
+
+- **Enhanced Drug Prediction Models**: We plan to improve model accuracy and generalization by incorporating additional data sources and experimenting with advanced machine learning algorithms.
+- **Extended Application for Other Diseases**: The model could be adapted for other cancer types and diseases, broadening the utility of this drug discovery pipeline.
+
+---
+
+## 📜 License
+
+This project is open-source and licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contributions
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues) for open topics or to submit new ideas.
+
